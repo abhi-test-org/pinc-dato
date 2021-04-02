@@ -1880,6 +1880,28 @@ abbrev@1:
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
   integrity sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q==
 
+abhi-source-datocms@^2.6.10:
+  version "2.6.10"
+  resolved "https://registry.yarnpkg.com/abhi-source-datocms/-/abhi-source-datocms-2.6.10.tgz#ccb46e76bac27b39e8504a66e70f9cbb1eb1a7ad"
+  integrity sha512-gJ3v9eU9L/kn7rHVZbwXIh9opiJ73NXJroVwhSbf3U8aomG8W20SOJVCiFk6Hjc2++qK/poKLsEjplRJ60oOqQ==
+  dependencies:
+    core-js "^3.2.1"
+    datocms-client ">=3.4.2"
+    datocms-structured-text-utils "^1.0.13"
+    fs-extra ">=8.1.0"
+    got "^11.8.2"
+    humps ">=2.0.1"
+    imgix-url-params ">=11.11.2"
+    json-stringify-safe ">=5.0.1"
+    lodash.uniq "^4.5.0"
+    md5 "2.2.1"
+    object-assign "^4.1.1"
+    object.entries "^1.1.3"
+    promise-queue "2.2.5"
+    query-string "6.14.1"
+    regenerator-runtime "^0.13.3"
+    unist-util-visit "^2.0.3"
+
 accepts@^1.3.7, accepts@~1.3.4, accepts@~1.3.5, accepts@~1.3.7:
   version "1.3.7"
   resolved "https://registry.yarnpkg.com/accepts/-/accepts-1.3.7.tgz#531bc726517a3b2b41f850021c6cc15eaab507cd"
@@ -5672,28 +5694,6 @@ gatsby-recipes@^0.13.0:
     ws "^7.3.0"
     xstate "^4.9.1"
     yoga-layout-prebuilt "^1.9.6"
-
-gatsby-source-datocms@^2.6.10:
-  version "2.6.10"
-  resolved "https://registry.yarnpkg.com/gatsby-source-datocms/-/gatsby-source-datocms-2.6.10.tgz#186bc2116e4559e87d97d02dad9f34e69a568c57"
-  integrity sha512-RLbSKerxZWnDYFdZhYxEeBr7QQa1xxbQg5BiN9rG4FQE8VT1rePupj1krIr+XJE/Y1Lyfee1EZ5U5zRXHgiWNw==
-  dependencies:
-    core-js "^3.2.1"
-    datocms-client ">=3.4.2"
-    datocms-structured-text-utils "^1.0.13"
-    fs-extra ">=8.1.0"
-    got "^11.8.2"
-    humps ">=2.0.1"
-    imgix-url-params ">=11.11.2"
-    json-stringify-safe ">=5.0.1"
-    lodash.uniq "^4.5.0"
-    md5 "2.2.1"
-    object-assign "^4.1.1"
-    object.entries "^1.1.3"
-    promise-queue "2.2.5"
-    query-string "6.14.1"
-    regenerator-runtime "^0.13.3"
-    unist-util-visit "^2.0.3"
 
 gatsby-source-filesystem@^3.2.0:
   version "3.2.0"
