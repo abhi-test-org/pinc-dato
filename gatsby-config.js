@@ -9,7 +9,7 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-transformer-remark`,
     {
-      resolve: `gatsby-source-datocms`,
+      resolve: `abhi-source-datocms`,
       options: {
         apiToken: process.env.DATO_API_TOKEN,
         previewMode: process.env.IS_PREVIEW === `true`,
